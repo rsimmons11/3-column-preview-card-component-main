@@ -1,0 +1,87 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+body {
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 20px;
+}
+
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.sedansContainer {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.suvsContainer {
+  background-color:  hsl(184, 100%, 22%);
+
+}
+
+.luxuryContainer {
+  background-color:  hsl(179, 100%, 13%);
+
+}
+
+img {
+  width: 50px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: bold;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+  background-color: hsl(0, 0%, 95%);
+  width: 110px;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.sedansContainer button {
+  color: hsl(31, 77%, 52%);
+}
+
+.suvsContainer button {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxuryContainer button {
+  color: hsl(179, 100%, 13%);
+}
